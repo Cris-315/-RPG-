@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Jiufen_RPG/Jiufen_RPG.vcxproj" Id="589ce140-159b-4fab-9e13-0072162bf1f7" />
+</Solution>

@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\1142\物件導向程式設計\Jiufen_RPG\Jiufen_RPG\Jiufen_RPG\main.cpp(19,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  NPC.cpp
+  Generating Code...
+  Jiufen_RPG.vcxproj -> D:\1142\物件導向程式設計\Jiufen_RPG\Jiufen_RPG\x64\Debug\Jiufen_RPG.exe
