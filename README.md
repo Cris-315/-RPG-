@@ -97,17 +97,20 @@
 
 ### 1. 遊戲啟動與戰鬥
 *(遊戲初始畫面與基礎回合操作)*
+
 <img width="526" height="486" alt="start" src="https://github.com/user-attachments/assets/09f73839-ccf7-48f6-a8cb-53b7c49d6ed2" />
 <img width="551" height="962" alt="1 2" src="https://github.com/user-attachments/assets/5950bc65-ce8c-4702-b18a-ae023de2b873" />
 <img width="627" height="962" alt="3" src="https://github.com/user-attachments/assets/93271fce-ef0b-4231-a447-435d92a29ea6" />
 
 ### 2. 隱藏事件：Teacher Appears!
 *(當玩家血量低於50%時觸發的 OOP 知識抽考)*
+
 <img width="467" height="552" alt="teacher" src="https://github.com/user-attachments/assets/e8adb4ed-3ac6-40ae-9942-e421d897a2f1" />
 <img width="467" height="575" alt="wrong" src="https://github.com/user-attachments/assets/b27c3450-5494-498e-95f6-d08015d45464" />
 
 ### 3. 特殊狀況與遊戲結局
 *(包含行動喪失警告、勝利與失敗結算)*
+
 <img width="537" height="482" alt="lose turn" src="https://github.com/user-attachments/assets/b322271a-07a5-4843-bc60-848d9a11870b" />
 <img width="581" height="450" alt="end" src="https://github.com/user-attachments/assets/dfa4a0a2-b2d3-4240-8d85-631c01f88caa" />
 <img width="515" height="592" alt="win" src="https://github.com/user-attachments/assets/5313539a-32d3-4122-bb4b-8c0b73803d8a" />
