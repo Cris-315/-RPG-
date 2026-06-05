@@ -62,38 +62,54 @@
 
 ## 六、程式如何安裝與執行
 ### 使用 Visual Studio
-1. 先下載這個專案的 ZIP 檔案，然後解壓縮出來。  
-2. 打開 Visual Studio，選擇 **「建立新的專案」**。  
-<img width="207" height="42" alt="one" src="https://github.com/user-attachments/assets/69ea307c-6541-49f6-afd3-d1ae93dceedc" />
-3. 選擇 **「空專案」**，給它取一個名字，然後點擊建立。  
-<img width="527" height="97" alt="two" src="https://github.com/user-attachments/assets/8a215ce0-a1f8-465a-8839-ecdc5c386b44" />
-4. 在右邊的「方案總管」裡，右鍵點擊 **「原始程式檔」** → **「加入」** → **「現有項目」**。  
-<img width="1147" height="396" alt="three" src="https://github.com/user-attachments/assets/e95bf487-1d8c-406a-b3d6-d12540f8abe8" />
-5. 全選剛才解壓縮的所有 `.cpp` 和 `.h` 檔案，然後加入。  
-6. 點擊上方 **「本機 Windows 偵錯工具」** 按鈕（或直接按 F5 鍵），遊戲就可以開始玩了！
-<img width="232" height="37" alt="four" src="https://github.com/user-attachments/assets/840a9ed6-6ba9-4981-b92a-9ec7d4577b56" />
-### 附錄：UML 類別圖與運作流程圖
-<img width="752" height="784" alt="RPG_UML drawio" src="https://github.com/user-attachments/assets/3b819eec-29a1-4385-b018-725b5f19255b" />
+1. 先下載這個專案的 ZIP 檔案，然後解壓縮出來。
 
-<img width="754" height="2206" alt="Main Flowchart drawio (2)" src="https://github.com/user-attachments/assets/a7842677-4141-4076-a546-ecc7eebfd115" />
+2. 打開 Visual Studio，選擇 **「建立新的專案」**。
+   
+   <img width="207" height="42" alt="one" src="https://github.com/user-attachments/assets/69ea307c-6541-49f6-afd3-d1ae93dceedc" />
+
+3. 選擇 **「空專案」**，給它取一個名字，然後點擊建立。
+   
+   <img width="527" height="97" alt="two" src="https://github.com/user-attachments/assets/8a215ce0-a1f8-465a-8839-ecdc5c386b44" />
+
+4. 在右邊的「方案總管」裡，右鍵點擊 **「原始程式檔」** → **「加入」** → **「現有項目」**。
+   
+   <img width="1147" height="396" alt="three" src="https://github.com/user-attachments/assets/e95bf487-1d8c-406a-b3d6-d12540f8abe8" />
+
+5. 全選剛才解壓縮的所有 `.cpp` 和 `.h` 檔案，然後加入。
+
+6. 點擊上方 **「本機 Windows 偵錯工具」** 按鈕（或直接按 F5 鍵），遊戲就可以開始玩了！
+   
+   <img width="232" height="37" alt="four" src="https://github.com/user-attachments/assets/840a9ed6-6ba9-4981-b92a-9ec7d4577b56" />
 
 ---
 
+### 附錄：UML 類別圖與運作流程圖
+
+<img width="752" height="784" alt="RPG_UML drawio" src="https://github.com/user-attachments/assets/3b819eec-29a1-4385-b018-725b5f19255b" />
+
+<br>
+
+<img width="754" height="2206" alt="Main Flowchart drawio (2)" src="https://github.com/user-attachments/assets/a7842677-4141-4076-a546-ecc7eebfd115" />
+---
+
 ## 七、程式畫面截圖
+
+### 1. 遊戲啟動與戰鬥
+*(遊戲初始畫面與基礎回合操作)*
 <img width="526" height="486" alt="start" src="https://github.com/user-attachments/assets/09f73839-ccf7-48f6-a8cb-53b7c49d6ed2" />
-
-<img width="537" height="482" alt="lose turn" src="https://github.com/user-attachments/assets/b322271a-07a5-4843-bc60-848d9a11870b" />
-
 <img width="551" height="962" alt="1 2" src="https://github.com/user-attachments/assets/5950bc65-ce8c-4702-b18a-ae023de2b873" />
+<img width="627" height="962" alt="3" src="https://github.com/user-attachments/assets/93271fce-ef0b-4231-a447-435d92a29ea6" />
 
-<img width="627" height="962" alt="3 " src="https://github.com/user-attachments/assets/93271fce-ef0b-4231-a447-435d92a29ea6" />
-
+### 2. 隱藏事件：Teacher Appears!
+*(當玩家血量低於50%時觸發的 OOP 知識抽考)*
 <img width="467" height="552" alt="teacher" src="https://github.com/user-attachments/assets/e8adb4ed-3ac6-40ae-9942-e421d897a2f1" />
-
 <img width="467" height="575" alt="wrong" src="https://github.com/user-attachments/assets/b27c3450-5494-498e-95f6-d08015d45464" />
 
+### 3. 特殊狀況與遊戲結局
+*(包含行動喪失警告、勝利與失敗結算)*
+<img width="537" height="482" alt="lose turn" src="https://github.com/user-attachments/assets/b322271a-07a5-4843-bc60-848d9a11870b" />
 <img width="581" height="450" alt="end" src="https://github.com/user-attachments/assets/dfa4a0a2-b2d3-4240-8d85-631c01f88caa" />
-
 <img width="515" height="592" alt="win" src="https://github.com/user-attachments/assets/5313539a-32d3-4122-bb4b-8c0b73803d8a" />
 
 
