@@ -60,16 +60,18 @@
    - **繼承（Inheritance）：** `Hero` 和 `Monster` 都從 `Character` 類別繼承，這樣可以共用基礎的屬性，減少重複寫程式碼。
    - **多型（Polymorphism）：** 在 `Character` 類別裡宣告純虛擬函式 `virtual int attack() = 0;`，然後在 `Hero` 和 `Monster` 裡分別實作自己的攻擊方式，這樣可以讓程式更靈活。
 
-## 六、程式如何安裝執行 (圖文講解)
-1. 於本專案 GitHub 頁面，點擊綠色的 `<> Code` 按鈕。
-2. 點擊 **Download ZIP** 進行下載。
-3. 將下載的檔案解壓縮至電腦中。
-4. 開啟 **Visual Studio** (或 VS Code)，選擇「開啟本機資料夾」並選取剛剛解壓縮的資料夾。
-5. 在畫面中找到並開啟 `main.cpp`。
-6. 點擊上方的「執行 (Run)」按鈕即可開始遊玩！
-
-*(hình ảnh)*
-
+## 六、程式如何安裝與執行
+### 使用 Visual Studio
+1. 先下載這個專案的 ZIP 檔案，然後解壓縮出來。  
+2. 打開 Visual Studio，選擇 **「建立新的專案」**。  
+<img width="207" height="42" alt="one" src="https://github.com/user-attachments/assets/69ea307c-6541-49f6-afd3-d1ae93dceedc" />
+3. 選擇 **「空專案」**，給它取一個名字，然後點擊建立。  
+<img width="527" height="97" alt="two" src="https://github.com/user-attachments/assets/8a215ce0-a1f8-465a-8839-ecdc5c386b44" />
+4. 在右邊的「方案總管」裡，右鍵點擊 **「原始程式檔」** → **「加入」** → **「現有項目」**。  
+<img width="1147" height="396" alt="three" src="https://github.com/user-attachments/assets/e95bf487-1d8c-406a-b3d6-d12540f8abe8" />
+5. 全選剛才解壓縮的所有 `.cpp` 和 `.h` 檔案，然後加入。  
+6. 點擊上方 **「本機 Windows 偵錯工具」** 按鈕（或直接按 F5 鍵），遊戲就可以開始玩了！
+<img width="232" height="37" alt="four" src="https://github.com/user-attachments/assets/840a9ed6-6ba9-4981-b92a-9ec7d4577b56" />
 ### 附錄：UML 類別圖與運作流程圖
 <img width="752" height="784" alt="RPG_UML drawio" src="https://github.com/user-attachments/assets/3b819eec-29a1-4385-b018-725b5f19255b" />
 
