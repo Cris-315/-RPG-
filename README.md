@@ -5,9 +5,9 @@
 - **系級班級：** 資工 1B
 
 ## 二、組員資訊
-- **組長：** 謝國省 (B2233890)  
-- **組員：** 黃金竹 (B3235471)  
-- **組員：** 魏玉皇維 (B2325250)  
+- ** 謝國省 (B2233890)  
+- ** 黃金竹 (B3235471)  
+- ** 魏玉皇維 (B2325250)  
 
 ## 三、小專題題目
 - 文字回合制 RPG 遊戲
@@ -50,15 +50,23 @@
 
 ## 七、程式畫面截圖
 <img width="526" height="486" alt="start" src="https://github.com/user-attachments/assets/09f73839-ccf7-48f6-a8cb-53b7c49d6ed2" />
+
 <img width="537" height="482" alt="lose turn" src="https://github.com/user-attachments/assets/b322271a-07a5-4843-bc60-848d9a11870b" />
+
 <img width="551" height="962" alt="1 2" src="https://github.com/user-attachments/assets/5950bc65-ce8c-4702-b18a-ae023de2b873" />
+
 <img width="627" height="962" alt="3 " src="https://github.com/user-attachments/assets/93271fce-ef0b-4231-a447-435d92a29ea6" />
+
 <img width="467" height="552" alt="teacher" src="https://github.com/user-attachments/assets/e8adb4ed-3ac6-40ae-9942-e421d897a2f1" />
+
 <img width="467" height="575" alt="wrong" src="https://github.com/user-attachments/assets/b27c3450-5494-498e-95f6-d08015d45464" />
+
 <img width="581" height="450" alt="end" src="https://github.com/user-attachments/assets/dfa4a0a2-b2d3-4240-8d85-631c01f88caa" />
+
 <img width="515" height="592" alt="win" src="https://github.com/user-attachments/assets/5313539a-32d3-4122-bb4b-8c0b73803d8a" />
 
+
 ## 八、分工資訊
-* **謝國省 (Harry - 組長)：** 撰寫 `main.cpp` 遊戲主迴圈、設計 `Character` 基礎類別、GitHub 專案管理與版本控制。
-* **黃金竹 (組員)：** 實作 `Hero` 類別、設計主角技能與 MP 系統、玩家操作功能實作。
-* **魏玉皇維 (組員)：** 實作 `Monster` 類別、設計怪物 AI 邏輯、戰鬥傷害計算系統。
+* **謝國省 (組長)：** 負責 main.cpp 遊戲主迴圈、Character 類別設計、NPC 類別設計、GitHub 專案管理。
+* **黃金竹 (組員)：** 實負責 Hero 類別設計、技能與 MP 系統。
+* **魏玉皇維 (組員)：** 負責 Monster 類別設計、戰鬥傷害計算。
